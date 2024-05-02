@@ -41,6 +41,11 @@
         </div>
     </section>
 
+    <section class="bg-black flex items-center justify-center py-10">
+        @component('_components.menu-section')
+        @endcomponent
+    </section>
+
     <section class="w-full bg-black flex justify-center items-center">
         <div class="w-full max-w-[1440px] flex flex-col gap-20 px-10 2xl:px-0">
                 @component('_components.image-service')

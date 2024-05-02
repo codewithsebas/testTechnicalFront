@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components {
+    .btn {
+        @apply hover:text-purple-500 active:-translate-y-1 transition
+    }
+}
