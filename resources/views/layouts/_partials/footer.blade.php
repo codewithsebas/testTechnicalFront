@@ -21,28 +21,28 @@
                     <li>
                         <a
                             class="w-fit hover:text-white"
-                            href="{{ route('services') }}"
+                            href="{{ route('service-1') }}"
                             >Nuestros servicios</a
                         >
                     </li>
                     <li>
                         <a
                             class="w-fit hover:text-white"
-                            href="{{ route('services') }}"
+                            href="{{ route('service-1') }}"
                             >Portafolio</a
                         >
                     </li>
                     <li>
                         <a
                             class="w-fit hover:text-white"
-                            href="{{ route('services') }}"
+                            href="{{ route('service-1') }}"
                             >Acerca de</a
                         >
                     </li>
                     <li>
                         <a
                             class="w-fit hover:text-white"
-                            href="{{ route('services') }}"
+                            href="{{ route('service-1') }}"
                             >Blog</a
                         >
                     </li>
@@ -272,7 +272,7 @@
             </div>
         </div>
 
-        <div class="flex flex-col gap-3">
+        <div class="flex xl:flex-col gap-3">
             <svg
                 width="49"
                 height="49"

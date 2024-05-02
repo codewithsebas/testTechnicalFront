@@ -1,4 +1,4 @@
-<div class="w-72 h-96 rounded-2xl relative overflow-hidden hover:scale-105 duration-300">
+<a href="{{$link}}" class="w-[15rem] h-[26rem] 2xl:w-[20rem] rounded-2xl relative overflow-hidden hover:scale-105 duration-300">
     <img
         class="w-full h-full object-cover object-center rounded-2xl"
         src="{{ $image }}"
@@ -16,4 +16,4 @@
     <div
         class="w-full h-20 bg-gradient-to-t from-red-400/50 absolute bottom-0"
     ></div>
-</div>
+</a>

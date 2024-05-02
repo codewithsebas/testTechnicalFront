@@ -1,13 +1,13 @@
-<header class="w-full absolute top-0 z-20 text-white max-w-[1440px] flex justify-between items-center gap-3 px-5 py-10">
+<header class="w-full absolute top-0 z-20 text-white max-w-[1440px] flex flex-col xl:flex-row justify-between items-center gap-3 px-5 py-10">
     <div>
         <a href="{{ route('index') }}">
             <img src="{{asset('assets/img/logo.png')}}" alt="Logo" width="80" height="80">
         </a>
     </div>
-    <nav>
+    <nav class="hidden md:block">
         <ul class="flex gap-8 font-light text-lg">
             <li>
-                <a href="{{ route('services') }}">Nuestros Servicios</a>
+                <a href="{{ route('service-1') }}">Nuestros Servicios</a>
             </li>
             <li>
                 <a href="#">Portafolio</a>
