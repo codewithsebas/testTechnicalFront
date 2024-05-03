@@ -87,3 +87,31 @@ document.addEventListener('DOMContentLoaded', function () {
         handleVideoButtonClick(video2, button, pauseIcon2, playIcon2);
     });
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const showMenu = document.getElementById("showMenu");
+    const hiddenMenu = document.getElementById("hiddenMenu");
+    const mainMenu = document.getElementById("mainMenu");
+
+    showMenu.addEventListener("click", function () {
+        mainMenu.classList.toggle("translate-x-60");
+    });
+
+    hiddenMenu.addEventListener("click", function () {
+        mainMenu.classList.add("translate-x-60");
+        console.log('aaa');
+    });
+});
+
+const header = document.querySelector('header');
+const headerHeight = header.offsetHeight;
+
+function toggleHeaderBackground() {
+  if (window.scrollY > headerHeight) {
+    header.classList.add('bg-black');
+  } else {
+    header.classList.remove('bg-black');
+  }
+}
+window.addEventListener('scroll', toggleHeaderBackground);
